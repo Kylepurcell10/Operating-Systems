@@ -24,8 +24,8 @@ int main(int argc ,char *argv[] )
 			cout << childpid << endl;
 			sleep(1);
 		}
-		else
-		{ //parent Process
+		else //parent Process
+		{
 			wait(NULL); // wait until child is dead to end program.
 			exit(0);
 		}
